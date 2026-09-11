@@ -1,6 +1,6 @@
 //package Data_Structures_AngelNahum;
 
-public interface MExpendora<T> {
+public interface IMExpendora<T> {
     void ingresarDinero(double cantidad);
     void agregarProducto(T producto);
     void reabastecer();
