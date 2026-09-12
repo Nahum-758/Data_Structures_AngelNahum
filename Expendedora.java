@@ -17,7 +17,7 @@ public class Expendedora<T> implements IMExpendora<T> {
             this.saldoActual += cantidad;
             System.out.println("Dinero ingresado: $" + cantidad + "| Saldo acumulado: $" + this.saldoActual);
         }   else {
-            System.out.println("Monto invalido.");
+            System.out.println("Monto inválido.");
         }
     }
 
@@ -34,7 +34,7 @@ public class Expendedora<T> implements IMExpendora<T> {
     }
     @Override
     public void cancelarOperacion(){
-        System.out.println("Operacion cancelada. Saldo devuelto: $" + this.saldoActual);
+        System.out.println("Operación cancelada. Saldo devuelto: $" + this.saldoActual);
         this.saldoActual = 0.0;
     }
     @Override
@@ -42,7 +42,7 @@ public class Expendedora<T> implements IMExpendora<T> {
         if (this.cantidadProductos > 0) {
             this.cantidadProductos--;
             }
-            System.out.println("Sin stock disponible");
+            System.out.println("Sin stock disponible UnU");
             return null;
     }
     @Override
