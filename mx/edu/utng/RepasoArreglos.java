@@ -9,6 +9,9 @@ public class RepasoArreglos {
 		System.out.println("Tamano" + nombres.length);
 		System.out.println("Edades" + edades.length);
 
+		//Indices
+		nombres[0] = "Juan Alberto";
+		//nombres[11] = "Juan Felipe";
 	}
 
 }
